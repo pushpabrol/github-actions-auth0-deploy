@@ -87,7 +87,7 @@ connections:
   - name: google-oauth2
     strategy: google-oauth2
     enabled_clients:
-      - DemaximusApp App
+      - Demaximus App
     is_domain_connection: false
     options:
       email: true
