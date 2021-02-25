@@ -23,7 +23,7 @@ clients:
       secret_encoded: false
     oidc_conformant: true
     token_endpoint_auth_method: client_secret_post
-  - name: DemaximusApp App
+  - name: Demaximus App
     app_type: spa
     callbacks: @@APP_CALLBACKS@@
     client_aliases: []
