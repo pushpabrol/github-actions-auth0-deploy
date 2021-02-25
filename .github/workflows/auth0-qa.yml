@@ -1,4 +1,4 @@
-name: Deploy to Auth0 production account
+name: Deploy to Auth0 qa account
 
 on:
   push:
@@ -22,4 +22,4 @@ jobs:
     - name: Import changes to the Auth0 QA account
       env:
         AUTH0_CLIENT_SECRET: ${{ secrets.QA_AUTH0_CLIENT_SECRET }}
-      run: npm run import:prod
+      run: npm run import:qa
