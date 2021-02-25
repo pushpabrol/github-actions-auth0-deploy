@@ -1,0 +1,19 @@
+{
+    "AUTH0_DOMAIN": "demaximus-dev.us.auth0.com",
+    "AUTH0_CLIENT_ID": "9BT9qTdMjkXUb7RjuhqMp88pWT9KmLdp",
+    "AUTH0_ALLOW_DELETE": true,
+    "AUTH0_KEYWORD_REPLACE_MAPPINGS": {
+      "APP_CALLBACKS": [
+        "http://localhost:3000"
+      ],
+      "API_IDENTIFIER": "https://api.dev.desmaximus.app/"
+    },
+    "EXCLUDED_PROPS": {
+      "clients": [
+        "client_secret"
+      ],
+      "connections": [
+        "options.client_secret"
+      ]
+    }
+  }

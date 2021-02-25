@@ -1,0 +1,19 @@
+{
+    "AUTH0_DOMAIN": "demaximus-qa.us.auth0.com",
+    "AUTH0_CLIENT_ID": "B5OXAKdCdQXQdLk0BCa2f2yzDj4hKDQq",
+    "AUTH0_ALLOW_DELETE": true,
+    "AUTH0_KEYWORD_REPLACE_MAPPINGS": {
+      "APP_CALLBACKS": [
+        "https://www.qa.desmaximus.app"
+      ],
+      "API_IDENTIFIER": "https://api.qa.desmaximus.app/"
+    },
+    "EXCLUDED_PROPS": {
+      "clients": [
+        "client_secret"
+      ],
+      "connections": [
+        "options.client_secret"
+      ]
+    }
+  }
