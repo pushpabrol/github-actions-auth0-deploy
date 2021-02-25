@@ -55,7 +55,7 @@ databases:
   - name: Username-Password-Authentication
     strategy: auth0
     enabled_clients:
-      - DemaximusApp App
+      - Demaximus App
     is_domain_connection: false
     options:
       mfa:
